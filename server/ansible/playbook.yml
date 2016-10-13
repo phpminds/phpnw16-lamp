@@ -4,7 +4,7 @@
   sudo: true
   vars:
     web_server: apachephp
-    servername: phpnw16.local www.phpnw16.local 192.168.22.123
+    servername: phpschool.local www.phpschool.local 192.168.22.123
     timezone: UTC
   vars_files:
     - vars/mysql.yml
