@@ -1,0 +1,20 @@
+---
+- name: Download workshop manager
+  shell: curl -O https://php-school.github.io/workshop-manager/workshop-manager.phar
+
+- name: Make workshop manager global
+  shell: sudo mv workshop-manager.phar /usr/local/bin/workshop-manager
+
+- name: Set execute permissions to workshop manager
+  shell: sudo chmod +x /usr/local/bin/workshop-manager
+
+- name: Update PATH
+  shell: echo 'export PATH="$PATH:/home/vagrant/.php-school/bin"' >> /home/vagrant/.bashrc
+
+- name: Refresh bashrc
+  shell: source /home/vagrant/.bashrc
+  args:
+    executable: /bin/bash
+
+- name: Verify workshop manager setup
+  shell: workshop-manager verify
