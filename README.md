@@ -1,6 +1,6 @@
 # PHP 7 LAMP Stack 
 
-An Ubuntu 16.04 LAMP stack with PHP 7 for the PHPSchoo.io Workshop at PHPMiNDS
+An Ubuntu 16.04 LAMP stack with PHP 7 for the PHPSchool.io Workshop at PHPMiNDS
 
 **Note** It uses ansible but it is loaded through the VM so it is Windows-friendly.
 
