@@ -2,5 +2,5 @@
     doc_root: /var/www/public/
     sys_packages: ["nano", "sqlite", "git", "zip"]
     dist: xenial
-    php_packages: ["php", "libapache2-mod-php", "php-mysql", "php-xml", "php-dev", "php-xdebug", "php-sqlite3", "php-common", "php-mbstring"]
+    php_packages: ["php", "libapache2-mod-php", "php-mysql", "php-xml", "php-dev", "php-xdebug", "php-sqlite3", "php-common", "php-mbstring", "php-curl", "php-zip"]
     pecl_packages: []
